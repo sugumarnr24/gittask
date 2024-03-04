@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Box Model Bug</title>
+    <style>
+      div {
+        width: 200px;
+        padding: 20px;
+        border: 5px solid black;
+        background-color: lightblue;
+        padding: 1%, 2%, 2%, 1%;
+        margin: 20px, 20px, 20px, 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>This is a box with padding and a border.</div>
+  </body>
+</html>
