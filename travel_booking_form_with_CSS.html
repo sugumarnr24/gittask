@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin-left: 50px;
+        margin-right: 50px;
+        background-image: url(travelform-background.png);
+        font-size: 24px;
+        background-position: center;
+        background-size: cover;
+        line-height: 24px;
+      }
+      h1 {
+        color: white;
+      }
+      .name,
+      .email,
+      .package,
+      .time,
+      .nop,
+      .avil,
+      .terms {
+        font-weight: bold;
+        line-height: 50px;
+      }
+      input {
+        width: 400px;
+        height: 30px;
+      }
+      input[type="checkbox"],
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+      }
+      select {
+        width: 410px;
+        height: 36px;
+      }
+      h3 {
+        color: firebrick;
+      }
+      button {
+        width: 140px;
+        height: 50px;
+        background-color: red;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tour Booking From</h1>
+    <h3>Note: * Mandatory fields</h3>
+    <hr 3px color="white" />
+    <form action="#" method="get">
+      <label class="name">Full Name*: </label><br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <label class="email">Email address*: </label><br />
+      <input tyoe="Email" name="email" id="email" />
+      <br />
+      <lable class="package">Select Tour package*: </lable><br />
+      <select name="Tour package" id="tourpackage">
+        <option>South India</option>
+        <option>North India</option>
+        <option>Outside India</option>
+        <option>Other</option>
+      </select>
+      <br />
+      <lable class="time">Arrival Date*:</lable><br />
+      <input type="date" name="arrival date" id="Arrival date" /><br />
+      <label class="nop">Number of Persons*: </label><br />
+      <input type="number" name="nop" id="nop" /><br />
+      <label class="avil">What would you want to avil?*</label><br />
+      <input type="checkbox" name="Boarding" id="Boarding" />
+      <label for="Boarding">Boarding</label><br />
+      <input type="checkbox" name="Food" id="Food" />
+      <label for="Food">Food</label><br />
+      <input type="checkbox" name="Sight seeing" id="Sight seeing" />
+      <lable for="Sight seeing">Sight seeing</lable><br />
+      <label class="terms">Terms and conditions*</label><br />
+      <input type="radio" id="agree" name="agree" />I agree
+      <br />
+      <button type="submit" value="BOOK NOW">BOOK NOW</button>
+    </form>
+  </body>
+</html>
