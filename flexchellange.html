@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0" />
+    <title>Flexbox</title>
+    <style>
+      body {
+        margin: 0%;
+        background-color: orange;
+      }
+      .full {
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 55rem;
+        align-items: center;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: flex-start;
+        background-color: white;
+      }
+      .title {
+        background-color: black;
+        margin: 10px;
+        padding: 10px;
+        width: 99%;
+        height: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+      }
+      .heading {
+        margin-left: 2rem;
+        color: orange;
+      }
+      .menu {
+        margin-left: 0.5rem;
+        background-color: black;
+        width: 99%;
+        height: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: center;
+      }
+      .box {
+        width: 13rem;
+        height: 3rem;
+        border: 1px solid white;
+        color: white;
+        font-size: 2rem;
+      }
+      .content {
+        width: 57rem;
+        margin-left: 7rem;
+      }
+      .end {
+        margin-left: 0.5rem;
+        width: 60rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="full">
+      <div class="title">
+        <div class="heading" style="font-size: 3rem">Sinple Yello</div>
+        <div class="heading" style="font-size: 2rem">
+          A Simple Website with a simple color
+        </div>
+      </div>
+      <div class="menu">
+        <div class="box">Home</div>
+        <div class="box">About Us</div>
+        <div class="box">Service</div>
+        <div class="box">portfolio</div>
+      </div>
+      <div class="content">
+        <p
+          style="
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          "
+        >
+          Welcome
+        </p>
+        <p style="font-size: 1.3rem">
+          <b>Simple Yello</b> is a free template created by<u>UniQue</u> and
+          released by <u>Thembit</u> under the
+          <u>reative commons attribution 3.0 </u>ulicense, Which means you can
+          use it in any way you want provided you keep links to authors intact.
+        </p>
+      </div>
+      <div class="end">
+        <h2>Heading 2</h2>
+        <p>Simple Yello Paragraph here!</p>
+        <h3>Heading 3</h3>
+        <p>Simple Yello Paragraph here!</p>
+        <h4>Heading 4</h4>
+        <p>Simple Yello Paragraph here!</p>
+      </div>
+    </div>
+  </body>
+</html>
