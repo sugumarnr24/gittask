@@ -1,0 +1,9 @@
+.article:nth-last-of-type(odd) {
+  background-color: #b01a1a;
+  padding: 10px;
+}
+
+.article:nth-last-of-type(even) {
+  background-color: #c09797;
+  padding: 10px;
+}
