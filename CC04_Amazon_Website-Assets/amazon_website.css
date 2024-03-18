@@ -1,0 +1,206 @@
+body {
+  margin: 0%;
+}
+.accountDetails {
+  background-color: rgba(15, 17, 17, 255);
+  display: flex;
+  justify-content: space-around;
+}
+.accountDetails img {
+  height: 5rem;
+}
+.accountDetails p {
+  color: white;
+
+  font-size: 1.5rem;
+  margin: 0%;
+}
+#locationOne {
+  font-size: 1rem;
+
+  padding: 1rem 0rem 0.4rem 1rem;
+}
+.searchingPort {
+  height: 50%;
+  display: flex;
+  margin-top: 1rem;
+}
+.selectProduceType {
+  font-size: 1.23rem;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+#searchProduct {
+  width: 40vw;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.searchSimbolBox {
+  height: 3rem;
+  background-color: rgb(255, 157, 0);
+}
+#searchSimbol {
+  padding: 0rem 0.6rem 0rem 0.5rem;
+}
+.accountSignIn {
+  color: white;
+  padding-top: 1.6rem;
+
+  font-size: 1.4rem;
+}
+#buySimbol {
+  padding-top: 2.4rem;
+}
+.menuList {
+  width: 100vw;
+  height: 3.8rem;
+  background-color: rgba(35, 47, 61, 255);
+  color: white;
+  font-size: 1.2rem;
+}
+.menuList ul {
+  float: left;
+  margin: 0%;
+  padding-top: 1.2rem;
+}
+.menuList li {
+  display: inline-block;
+  padding-left: 1.2rem;
+}
+.menuList p {
+  font-size: 1.5rem;
+  float: right;
+  padding: 1rem 3rem;
+  margin: 0%;
+}
+.dealsImage {
+  width: 100%;
+}
+.ProductCategories {
+  padding: 5rem 0rem 0rem 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(244, 242, 242);
+  height: 40rem;
+}
+.ProductCategories img {
+  width: 100%;
+  height: 68%;
+}
+.ProductCategories div {
+  padding: 1rem 2.5rem 0rem 2.5rem;
+  width: 21rem;
+  height: 36rem;
+  background-color: white;
+}
+.ProductCategories p {
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+.backToTop {
+  height: 4.5rem;
+  padding-top: 1rem;
+  background-color: rgba(55, 71, 90, 255);
+  text-align: center;
+  color: white;
+}
+.exitPage {
+  background-color: rgba(35, 47, 61, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+.exitPage ul {
+  list-style-type: none;
+  padding: 0rem 6rem 1rem 6rem;
+}
+@media only screen and (max-width: 600px) {
+  .accountDetails {
+    width: 38rem;
+  }
+  .accountDetails img {
+    width: 26vw;
+    height: 6rem;
+  }
+  .location {
+    display: none;
+  }
+  .selectProduceType {
+    display: none;
+  }
+  #searchProduct {
+    width: 25vw;
+    font-size: 1rem;
+  }
+  .searchSimbolBox {
+    height: 4rem;
+  }
+  .accountSignIn {
+    padding-top: 2rem;
+  }
+  #orderProduct {
+    display: none;
+  }
+  #buySimbol {
+    padding-top: 3rem;
+  }
+  .menuList {
+    width: 38rem;
+    height: 6rem;
+  }
+  .menuList ul {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+  .menuList li {
+    width: 3.5rem;
+    padding: 0rem 0.8rem 0rem 1rem;
+  }
+  .menuList li:nth-child(2) {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  .menuList li:nth-child(1) {
+    padding: 0rem 0rem 0rem 2rem;
+  }
+  .menuList li:nth-child(3) {
+    padding-left: 0rem;
+  }
+  .menuList p {
+    display: none;
+  }
+  .dealsImage {
+    width: 38rem;
+    height: 23rem;
+  }
+  .ProductCategories {
+    padding: 1rem 0rem;
+    display: block;
+    width: 38rem;
+    height: 170rem;
+  }
+  .ProductCategories img {
+    width: 93%;
+    height: 25rem;
+  }
+  .ProductCategories div {
+    margin-top: 4rem;
+    padding: 0.2rem 0rem 0rem 3rem;
+    width: 35rem;
+    height: 37rem;
+  }
+  .ProductCategories p {
+    font-size: 2rem;
+  }
+  .backToTop {
+    height: 5rem;
+    width: 38rem;
+  }
+  .exitPage {
+    display: block;
+    padding: 1rem 0rem 1rem 0rem;
+    width: 38rem;
+    text-align: center;
+  }
+}
